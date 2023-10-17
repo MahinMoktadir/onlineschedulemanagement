@@ -1,0 +1,50 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #b092e8;
+    color: #ffffff;
+    padding: 10px;
+}
+
+main {
+    margin: 20px;
+}
+
+.form-section {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-section h2 {
+    margin-bottom: 20px;
+}
+
+.form-section label {
+    font-weight: bold;
+}
+
+.form-section input,
+.form-section select,
+.form-section button {
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-section button {
+    background-color: #b092e8;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* Add more custom styles here if needed */
